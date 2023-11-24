@@ -1,0 +1,765 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  overflow-x: hidden;
+  background: #fff;
+}
+a {
+  text-decoration: none;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  color: #002eff;
+  font-weight: 300;
+  display: inline-block;
+}
+.pp {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #fff;
+}
+.pp a {
+  color: #000;
+}
+.block-1 {
+  position: relative;
+  box-shadow: 0 1px 16px rgba(0, 0, 0, 0.1);
+  background-image: url("../img/2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow-x: hidden;
+}
+.block-1 .nav > a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #000;
+}
+.block-1 .title {
+  font-family: "RoadRadio";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  color: red;
+  text-shadow: -4px 4px 15px rgba(0, 0, 0, 0.25);
+}
+.block-1 .sub-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000;
+}
+.block-1 .heart-bit {
+  position: absolute;
+  top: 0;
+  left: -394px;
+  z-index: -1;
+  width: 1168px;
+}
+.block-1 .heartbeat-2 {
+  position: absolute;
+  top: 184px;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+.block-1 .heartbeat-2 svg {
+  stroke: red;
+  stroke-width: 4px;
+  fill: none;
+  stroke-dasharray: 300, 150;
+  stroke-dashoffset: 0;
+  animation: heartbeat-2 9s infinite linear;
+}
+@keyframes heartbeat-2 {
+  to {
+    stroke-dashoffset: 1050;
+  }
+}
+.block-1 .img-pulse {
+  animation: pulse 1s ease-in-out infinite;
+}
+.block-2 {
+  position: relative;
+  background-image: url("../img/6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 60px 0;
+}
+.block-2 .title {
+  font-family: "RoadRadio";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: red;
+  margin-bottom: 22px;
+}
+.block-2 .text {
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 130%;
+  text-align: center;
+  color: #000;
+  margin-bottom: 22px;
+}
+.block-2 .block-link {
+  margin-bottom: 16px;
+}
+.block-3 {
+  position: relative;
+  background-image: url("../img/9.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 60px 0;
+}
+.block-3 .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 65px;
+}
+.block-3 .item-img {
+  margin-bottom: 25px;
+}
+.block-3 .item-text {
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 130%;
+  text-align: center;
+  color: #4a5442;
+  padding: 10px;
+  background: #fff;
+  box-shadow: 2px -1px 4px rgba(0, 0, 0, 0.1), -4px 4px 4px rgba(0, 0, 0, 0.14),
+    inset -3px 3px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+.block-3 .block-video {
+  width: 560px;
+  height: 315px;
+}
+.block-3 .block-video video {
+  object-fit: fill;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+}
+.block-4 {
+  position: relative;
+  background-image: url("../img/17.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 60px 0 40px;
+}
+.block-4 .title {
+  font-family: "RoadRadio";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: red;
+  margin-bottom: 22px;
+}
+.block-4 .text {
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 130%;
+  text-align: center;
+  color: #000;
+}
+.block-5 {
+  position: relative;
+  z-index: 1;
+  padding: 50px 0 211px;
+  background-image: url("../img/20.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.block-5 .title {
+  font-family: "RoadRadio";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: red;
+  margin-bottom: 46px;
+}
+.block-5 .slider1,
+.block-5 .slider2 {
+  background: #fff;
+  box-shadow: 2px -1px 4px rgba(0, 0, 0, 0.1), -4px 4px 4px rgba(0, 0, 0, 0.14),
+    inset -3px 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 49px 21px 72px;
+}
+.block-5 .img-bottle2 {
+  position: absolute;
+  left: 0;
+  bottom: -210px;
+  z-index: 1;
+}
+.block-5 .img-top {
+  position: absolute;
+  left: 50%;
+  top: -20px;
+  transform: translateX(-50%);
+  z-index: 1;
+  width: 190px;
+}
+.block-5 .img-bottle {
+  position: absolute;
+  right: 0;
+  bottom: -90px;
+  z-index: 1;
+}
+.block-5 .text {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #373737;
+  margin-bottom: 23px;
+}
+.block-5 .lists {
+  list-style-type: none;
+}
+.block-5 .list-item {
+  position: relative;
+}
+.block-5 .list-item::before {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: -24px;
+  background-image: url("../img/26.png");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 14px;
+  width: 14px;
+}
+.block-5 .prev-arr {
+  display: none !important;
+}
+.block-5 .next-arr {
+  position: absolute;
+  top: 1110px;
+  right: 21px;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  background-image: url("../img/24.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  z-index: 2;
+}
+.block-6 {
+  position: relative;
+  padding: 60px 0 0;
+}
+.block-6 .title {
+  font-family: "RoadRadio";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: red;
+  margin-bottom: 35px;
+}
+.block-6 .block-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.block-6 .text-item {
+  margin-bottom: 35px;
+  display: inline-block;
+}
+.block-6 .text {
+  display: inline-block;
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 130%;
+  text-align: center;
+  color: #4a5442;
+  padding: 10px;
+  background: #fff;
+  box-shadow: 2px -1px 4px rgba(0, 0, 0, 0.1), -4px 4px 4px rgba(0, 0, 0, 0.14),
+    inset -3px 3px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin-left: 15px;
+}
+.block-6 .link {
+  margin-bottom: 20px;
+}
+.block-6 .margin23 {
+  display: flex;
+  align-items: center;
+  margin: 0 23px 35px;
+}
+.block-6 .margin23 img {
+  width: 14px;
+  height: 14px;
+}
+.block-7 {
+  position: relative;
+  padding: 60px 0;
+  background-image: url("../img/28.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+.block-7 .heart-bit {
+  position: absolute;
+  left: 0;
+  top: 236px;
+  width: 100%;
+}
+.block-7 .title {
+  font-family: "RoadRadio";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: red;
+  margin-bottom: 55px;
+}
+.block-7 .slider-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 5px;
+}
+.block-7 .block-img {
+  margin-bottom: 15px;
+}
+.block-7 .name {
+  font-family: "RoadRadio";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 130%;
+  color: #000;
+}
+.block-7 .text {
+  display: inline-block;
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 130%;
+  text-align: center;
+  color: #4a5442;
+  padding: 15px;
+  background: #fff;
+  box-shadow: 2px -1px 4px rgba(0, 0, 0, 0.1), -4px 4px 4px rgba(0, 0, 0, 0.14),
+    inset -3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+.block-7 .prev-arr,
+.block-7 .next-arr {
+  display: none;
+}
+.block-8 {
+  position: relative;
+  padding: 60px 0 0;
+}
+.block-8 .title {
+  font-family: "RoadRadio";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 110%;
+  text-align: center;
+  color: red;
+}
+.block-8 .caption {
+  font-family: "RoadRadio";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150.01%;
+  text-align: center;
+  color: #000;
+}
+.block-9 {
+  position: relative;
+  padding: 27px 0 35px;
+  background-image: url("../img/44.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+  overflow-x: hidden;
+}
+.block-9 .heart-bit {
+  position: absolute;
+  left: -35px;
+  top: 106px;
+  width: 80%;
+  z-index: -1;
+}
+.block-9 .title-form {
+  font-family: "RoadRadio";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  color: red;
+}
+.block-9 .sub-title-form {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000;
+  margin-bottom: 147px;
+}
+.block-9 .price {
+  padding: 50px 15px;
+  margin: 0 24px 10px 84px;
+}
+.block-9 .heartbeat-2 {
+  position: absolute;
+  top: 144px;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+.block-9 .heartbeat-2 svg {
+  stroke: red;
+  stroke-width: 4px;
+  fill: none;
+  stroke-dasharray: 300, 150;
+  stroke-dashoffset: 0;
+  animation: heartbeat-2 9s infinite linear;
+}
+@keyframes heartbeat-2 {
+  to {
+    stroke-dashoffset: 1050;
+  }
+}
+.dots-style {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.dots-style button {
+  border: 0;
+  background-color: #fff;
+  background-image: url("../img/30.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  border-radius: 50%;
+  font-size: 0;
+  height: 15px;
+  width: 15px;
+  margin: 5px;
+  outline: 0;
+}
+.dots-style li[class="slick-active"] button {
+  border: 0;
+  background-color: transparent;
+  background-image: url("../img/26.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+#modal {
+  background: rgba(30, 30, 30, 0.9);
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+.fancybox-content {
+  padding: 44px 10px 0 !important;
+}
+.form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 462px;
+  width: 100%;
+}
+.fancybox-slide--html .fancybox-close-small {
+  color: #fff !important;
+}
+.input-group {
+  width: 100%;
+  margin-bottom: 20px !important;
+}
+.form .input-field {
+  outline: 0;
+  border: 0;
+  width: 100%;
+  padding: 10px 20px 10px 50px;
+  border: 1px solid #fff;
+  border-radius: 10px !important;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 130%;
+  color: #fff;
+  background-color: transparent;
+}
+.form .input-field::placeholder {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 130%;
+  color: #fff;
+}
+.form .input-img {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  width: 25px;
+  height: 25px;
+}
+.form .button {
+  border: 0;
+  outline: 0;
+  padding: 10px;
+  font-family: "RoadRadio";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 32px;
+  color: #fff;
+  text-shadow: -2px 3px 5px rgba(0, 0, 0, 0.25);
+  background: #d73b3b;
+  box-shadow: inset 0 -10px 10px rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+.price {
+  font-family: "RoadRadio";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 23px;
+  text-align: center;
+  color: #000;
+  background: #fff;
+  box-shadow: 2px -1px 4px rgba(0, 0, 0, 0.1), -4px 4px 4px rgba(0, 0, 0, 0.44),
+    inset -3px 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  padding: 65px 10px;
+  margin: 0 84px;
+}
+.price-old {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 22px;
+  text-align: center;
+  color: #000;
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
+.border-left {
+  border-left: 1px solid #000;
+}
+.border-bottom {
+  border-bottom: 1px solid #000 !important;
+}
+.font-weight-400 {
+  font-weight: 400 !important;
+}
+.font-weight-500 {
+  font-weight: 500 !important;
+}
+.font-weight-600 {
+  font-weight: 600 !important;
+}
+.font-weight-700 {
+  font-weight: 700 !important;
+}
+.font-weight-800 {
+  font-weight: 800 !important;
+  font-size: 36px;
+}
+.red-text {
+  color: red;
+}
+.yellow-text {
+  color: #ffb800;
+}
+.blue-text {
+  font-weight: 600;
+  color: #0047ff;
+}
+.white-bg-shadow {
+  background: #fff;
+  box-shadow: -5px 5px 25px rgba(0, 0, 0, 0.15),
+    5px -5px 25px rgba(0, 0, 0, 0.15);
+}
+.shadow-text {
+  text-shadow: 2px 2px rgba(255, 255, 255, 0.7),
+    2px -2px rgba(255, 255, 255, 0.7), -2px 2px rgba(255, 255, 255, 0.7),
+    -2px -2px rgba(255, 255, 255, 0.7), -4px 4px 15px rgba(0, 0, 0, 0.25) !important;
+}
+.link {
+  display: inline-block;
+  font-family: "RoadRadio";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: #fff;
+  text-shadow: -2px 3px 5px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(
+    180deg,
+    #bc0000 0,
+    #c80000 0.01%,
+    #df0000 50%,
+    #d90000 57.29%,
+    #b50202 100%
+  );
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.35), inset 0 0 15px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 8px 10px;
+}
+.link:hover {
+  color: #fff;
+}
+.desktop-nav {
+  display: none;
+}
+.mobile-nav {
+  padding: 20px 0 0;
+}
+.mobile-nav.active {
+  background: #fff;
+}
+.mobile-nav .nav {
+  display: none;
+  list-style-type: none;
+}
+.mobile-nav .nav li {
+  display: block;
+  text-align: center;
+  margin-bottom: 45px;
+}
+.mobile-nav .nav li > a {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 36px;
+  color: #000;
+}
+.mobile-nav .nav.active {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  transition: height 0.1s ease-out;
+  background: #fff;
+}
+.mobile-nav .burger-menu {
+  width: 40px;
+  height: 30px;
+  background-image: url("../img/34.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.mobile-nav .burger-menu.active {
+  width: 40px;
+  height: 30px;
+  background-image: url("../img/35.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.mobile-nav .img-logo-mobile {
+  width: 69px;
+  height: 35px;
+  background-image: url("../img/1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.mobile-nav .img-logo-mobile.active {
+  width: 69px;
+  height: 35px;
+  background-image: url("../img/1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.img-pulse {
+  animation: pulse 2s ease-in-out infinite;
+}
+@-webkit-keyframes pulse {
+  0 {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.98);
+  }
+}
+@keyframes pulse {
+  0 {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.98);
+  }
+}
