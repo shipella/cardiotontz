@@ -1541,7 +1541,14 @@
       </div>
     </div>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("Lfyp-xlJyDlPS6Noi");
+   })();
+</script>
     <script src="js/notification.js"></script>
 
     <!-- Fancybox modal -->

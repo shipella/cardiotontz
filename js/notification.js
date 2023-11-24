@@ -1,27 +1,24 @@
-function emailSend(){
-
-	var userName = document.getElementById('name').value;
-	var phone = document.getElementById('phone').value;
-	
-
-	var messageBody = "Name " + userName +
-	"<br/> Phone " + phone ;
-	Email.send({
-    Host : "smtp.elasticemail.com",
-    Username : "notificationsystemtz@gmail.com",
-    Password : "B9B428CEE160D36D07F47441CC1CA622A8BE",
-    To : 'bshipella@gmail.com',
-    From : "notificationsystemtz@gmail.com",
-    Subject : "This is the subject",
-    Body : messageBody
-}).then(
-  message => {
-  	if(message=='OK'){
-  		swal("Secussful", "You clicked the button!", "success");
-  	}
-  	else{
-  		swal("Error", "You clicked the button!", "error");
-  	}
+function sendMail() {
+	var params = {
+	  name: document.getElementById("name").value,
+	  email: document.getElementById("phone").value,
+	};
+  
+	const serviceID = "service_b1e5dtq";
+	const templateID = "template_q2fvjqu";
+  
+	  emailjs.send(serviceID, templateID, params)
+	  .then(res=>{
+		  document.getElementById("name").value = "";
+		  document.getElementById("phone").value = "";
+		  console.log(res);
+		  Swal.fire({
+			title: "Ombi lako lemetumwa!",
+			text: "Asante kwa Agizo lako tutawasiliana nawe hivi punde!",
+			icon: "success"
+  
+	  })
+	  .catch(err=>console.log(err));
+  
   }
-);
-}
+  
