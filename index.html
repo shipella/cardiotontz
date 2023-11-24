@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dawa ya Cardioton</title>
     <!-- fonts -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"/>
     <link rel="preconnect" href="../fonts.googleapis.com/index.html" />
     <link rel="preconnect" href="../fonts.gstatic.com/index.html" crossorigin />
     <link
@@ -24,6 +29,17 @@
     <link rel="stylesheet" href="css/slick.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/media.css" />
+    <script type="text/javascript">
+      (function(){
+         emailjs.init("Lfyp-xlJyDlPS6Noi");
+      })();
+   </script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+
+    <script src="js/notification.js"></script>
   </head>
 
   <body>
@@ -763,7 +779,7 @@
                     reliable protection against high blood pressure
                   </p>
                   <form
-                    onsubmit="success.html"
+                    action="success.html" method="post"
                     class="form d-none d-lg-flex"
                   >
                     <div class="input-group tooltip-hide">
@@ -1433,7 +1449,7 @@
                     ulinzi wa kuaminika dhidi ya shinikizo la damu
                   </p>
                   <form
-                    onsubmit="success.html"
+                    action="success.html" method="post"
                     class="form d-none d-lg-flex"
                   >
                     <div class="input-group tooltip-hide">
@@ -1513,7 +1529,7 @@
 
       <div id="modal2" style="display: none">
         <form
-          onsubmit="success.html"
+          action="success.html" method="post"
           class="form d-flex"
         >
           <div class="input-group tooltip-hide">
@@ -1540,16 +1556,7 @@
         </form>
       </div>
     </div>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init("Lfyp-xlJyDlPS6Noi");
-   })();
-</script>
-    <script src="js/notification.js"></script>
+   
 
     <!-- Fancybox modal -->
     <link

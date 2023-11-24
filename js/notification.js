@@ -16,9 +16,9 @@ function sendMail() {
 			title: "Ombi lako lemetumwa!",
 			text: "Asante kwa Agizo lako tutawasiliana nawe hivi punde!",
 			icon: "success"
-  
-	  })
-	  .catch(err=>console.log(err));
-  
-  }
-  
+		});
+
+    })
+    .catch(err=>console.log(err));
+
+}
