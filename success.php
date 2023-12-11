@@ -1,11 +1,8 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
-
-<!-- Mirrored from www.cardiotontz.shop/success.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 22 Nov 2023 15:41:40 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
     <!-- Google tag (gtag.js) -->
-<script async src="../www.googletagmanager.com/gtag/js032d?id=AW-418455670"></script>
+<script async="" src="D%3A%5CDESKTOP%5Cwebsite%5Ccardiotontz.shop%5Cgtag%5Cjs?id=AW-418455670"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -25,9 +22,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="description" content="">
-    <link rel="preconnect" href="../fonts.googleapis.com/index.html">
-    <link rel="preconnect" href="../fonts.gstatic.com/index.html" crossorigin>
-    <link href="../fonts.googleapis.com/css2111e.css?family=Roboto:wght@100;300;500;700&amp;display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="D%3A%5CDESKTOP%5Cwebsite%5Ccardiotontz.shop%5Ccss2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
     <style>
         body {
             margin: 0;
@@ -211,8 +208,8 @@
         <div class="mod success-page">
             <div class="success-page-header">
                 <div class="success_icon">
-                    <svg width="54" height="40" viewBox="0 0 54 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M54 5.88L19.92 40L0 20.06L5.87 14.18L19.91 28.24L48.13 0L54 5.88Z" fill="#F1A900"/>
+                    <svg width="54" height="40" viewbox="0 0 54 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M54 5.88L19.92 40L0 20.06L5.87 14.18L19.91 28.24L48.13 0L54 5.88Z" fill="#F1A900"></path>
                     </svg>
                 </div>
                 <h2 class="success-page__title">Thanks for your order!</h2>
@@ -222,12 +219,9 @@
                     provided phone number is correct:</p>
                 <div class="list-info">
                     <div class="phone"></div>
-                    <a href="index.html" class="edit-btn">
+                    <a href="D%3A%5CDESKTOP%5Cwebsite%5Ccardiotontz.shop%5Cindex.htm" class="edit-btn">
                         <span>
-                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg"><path
-                                        d="M9.94 0L0.54 9.4L0 14L4.6 13.47L14 4.07L9.94 0ZM3.67 11.56L2.28 11.72L2.44 10.33L9.94 2.83L11.17 4.06L3.67 11.56Z"
-                                        fill="white"/>
+                            <svg width="14" height="14" viewbox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.94 0L0.54 9.4L0 14L4.6 13.47L14 4.07L9.94 0ZM3.67 11.56L2.28 11.72L2.44 10.33L9.94 2.83L11.17 4.06L3.67 11.56Z" fill="white"></path>
                             </svg>
                         </span>Edit</a>
                 </div>
@@ -243,9 +237,9 @@
         </div>
     </div>
 </div>
-<script src="../ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="../cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-<script src="../threejs.org/examples/js/libs/stats.min.html"></script>
+<script src="D%3A%5CDESKTOP%5Cwebsite%5Ccardiotontz.shop%5Cajax%5Clibs%5Cjquery%5C3.4.1%5Cjquery.min.js"></script>
+<script src="D%3A%5CDESKTOP%5Cwebsite%5Ccardiotontz.shop%5Cparticles.js%5C2.0.0%5Cparticles.min.js"></script>
+<script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
 <script>
     $('#particles-js').css("background", backgroundColor);
     $('.success-page-header').css("box-shadow", '0px 0px 80px' + shadowColor);
@@ -370,6 +364,4 @@
 </script>
 </body>
 
-
-<!-- Mirrored from www.cardiotontz.shop/success.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 22 Nov 2023 15:41:47 GMT -->
 </html>
